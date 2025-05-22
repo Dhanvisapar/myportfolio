@@ -3,12 +3,6 @@
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
-*::before,*::after
-{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 .grid-container1{
     display: grid;
     grid-template-columns: auto auto;
@@ -221,7 +215,7 @@ margin-top: 100px;
 border: 1px solid rgb(231,30,63);
 margin-left: 500px;
 margin-right: 500px;
-padding: ;
+padding: 20px;;
 }
 .more > a{
     text-decoration: none;
@@ -230,7 +224,7 @@ padding: ;
 .contact
 {
     margin-left: 200px;
-    margin-top: 200px;
+    margin-top: 500px;
 }
 .grid-contact{
     display: grid;
@@ -265,7 +259,7 @@ padding: ;
 color: white;
 text-decoration: none;
 }
-.grid-item12 > div
+.grid-item12 > form > div
 {
     margin-top: 28px;
 }
@@ -293,7 +287,7 @@ textarea
     color: ghostwhite;
     padding-left: 20px;
 }
-.grid-item12 > div >button{
+.grid-item12 > form> div >button{
     background-color: rgb(240, 58, 58);
     padding: 15px;
     border-radius: 10px;
